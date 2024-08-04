@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 import FirstSection from './pages/FirstSection'
 import SecondSection from './pages/SecondSection'
 import  ThirdSection from './pages/ThirdSection'

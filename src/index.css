@@ -5,8 +5,8 @@
 
 
 .first-sectionBg {
-   background-image: url('../app/assets/bgimgsect1.svg');
-   padding: 21px;
+  background-image: url('./assets/bgimgsect1.svg');
+  padding: 21px;
    background-size: cover;
    background-position: center;
 }
