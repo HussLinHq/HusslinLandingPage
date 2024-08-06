@@ -1,5 +1,4 @@
 
-import ValuesModel from "./Values"
 import SixthSection from "./SixthSection"
 import SeventhSection from "./SeventhSection"
 import FAQAccordion from "./FAQAccordion"
