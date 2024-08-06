@@ -21,7 +21,7 @@ export default function Header() {
             <Image src={husslinLogo} width={84} height={20} alt="Logo" />
             </a>
         </div> */}
-        <div className="flex lg:flex-1 justify-between items-center w-full mt-[23px]">
+        <div className="flex lg:flex-1 justify-between items-center w-full  ">
           <img src={husslinLogo} width={84} height={20} alt="Logo" />
           <button
             type="button"
@@ -46,8 +46,8 @@ export default function Header() {
               {/* Add dropdown items here */}
             </div>
           </div>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">About Us</a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">FAQs</a>
+          <a href="./Aboutus" className="text-sm font-semibold leading-6 text-gray-900">About Us</a>
+          <a href="/FAQ" className="text-sm font-semibold leading-6 text-gray-900">FAQs</a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
         </div>
         {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">

@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='col-span-1 px-[43px] lg:flex lg:gap-6'>
+      <div className='col-span-1 px-[43px] lg:flex lg:gap-[75px]'>
         <div>
         <p className='text-[8px] font-bold lg:text-[20px]' >Company</p>
         <p className='text-[7px] font-[400px] text-[#000] lg:text-[18px]'>About us</p>
@@ -43,7 +43,7 @@ function Footer() {
         <p className='text-[7px] font-[400px] text-[#000] lg:text-[18px]'>Disclosure</p>
         </div>
       </div>
-      <div  className='col-span-1 lg:flex lg:gap-6'>
+      <div  className='col-span-1 lg:flex lg:gap-[75px]'>
         <div>
         <p className='text-[8px] font-bold lg:text-[20px]' >Explore</p>
         <p className='text-[7px] font-[400px] text-[#000] lg:text-[18px]'>Why Husslin</p>

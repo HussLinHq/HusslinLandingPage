@@ -1,4 +1,4 @@
-import Iphone from "../assets/iphone12.svg"
+import Iphone from "../assets/sevenphone.svg"
 import AppStore from '../assets/iphstore.svg'
 import GoogleStore from '../assets/Googlestr.svg'
 
