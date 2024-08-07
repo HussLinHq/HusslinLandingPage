@@ -9,9 +9,12 @@ import SixthSection from './pages/SixthSection';
 import SeventhSection from './pages/SeventhSection';
 import Header from './Header';
 import Footer from './Footer';
-import AboutUs from './pages/Aboutus'; 
+import AboutUs from './pages/Aboutus';
 import Landing from './Landin'
 import FAQ from './pages/FAQ'
+import ContactUS from './pages/ContactUS';
+import Blog from './pages/Blog';
+
 
 function App() {
   return (
@@ -28,8 +31,9 @@ function App() {
           <Route path="/sixth" element={<SixthSection />} />
           <Route path="/seventh" element={<SeventhSection />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/ContactUS" element={<ContactUS />} />
+          <Route path="/Blog" element={<Blog />} />
           <Route path="/FAQ" element={<FAQ />} />
-
         </Routes>
 
       </div>

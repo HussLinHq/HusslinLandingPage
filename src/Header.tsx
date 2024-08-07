@@ -1,4 +1,3 @@
-"use client"
 
 import { useState } from "react";
  import husslinLogo from './assets/husslinfulllogo.png'
@@ -22,7 +21,8 @@ export default function Header() {
             </a>
         </div> */}
         <div className="flex lg:flex-1 justify-between items-center w-full  ">
-          <img src={husslinLogo} width={84} height={20} alt="Logo" />
+        <a href="./" >          <img src={husslinLogo} width={84} height={20} alt="Logo" />
+        </a>
           <button
             type="button"
             className="-m-2.5 lg:hidden inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -35,20 +35,22 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <div className="relative">
+          {/* <div className="relative">
             <button type="button" className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
-              Blog
+              Blog */}
               {/* <svg className="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
               </svg> */}
-            </button>
-            <div className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+            {/* </button> */}
+            {/* <div className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"> */}
               {/* Add dropdown items here */}
-            </div>
-          </div>
+            {/* </div> */}
+          {/* </div> */}
+          <a href="./" className="text-sm font-semibold leading-6 text-gray-900">Home</a>
+          <a href="./Blog" className="text-sm font-semibold leading-6 text-gray-900">Blog</a>
           <a href="./Aboutus" className="text-sm font-semibold leading-6 text-gray-900">About Us</a>
           <a href="/FAQ" className="text-sm font-semibold leading-6 text-gray-900">FAQs</a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
+          <a href="/ContactUS" className="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
         </div>
         {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
