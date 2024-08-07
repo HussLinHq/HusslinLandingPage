@@ -26,10 +26,9 @@ function Blog() {
             <li><a href="#" className="text-gray-600">Industry</a></li>
           </ul>
         </div>
-        
         {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {Array(6).fill().map((_, index) => (
+        {Array(6).fill(null).map((_, index) => (
             <div key={index}  >
               <div className="h-[61px] w-[98px] bg-gray-300 mb-4 rounded lg:min-w-[259px] lg:min-h-[162px] lg:rounded-xl" ></div>
               <h3 className=" font-bold text-gray-500 mb-2 text-[6px] leading-[7px] lg:text-[12px]">PRODUCT</h3>
@@ -50,7 +49,7 @@ function Blog() {
               <p className="text-[5px] text-gray-600 lg:text-[19px]">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit</p>
             </a>
           </li>
-          {Array(4).fill().map((_, index) => (
+          {Array(4).fill(null).map((_, index) => (
             <li key={index}>
               <a href="#" className="block p-4 bg-gray-100 rounded-lg hover:bg-gray-200">
                 <p className="text-[5px] text-gray-600 lg:text-[19px]">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit</p>

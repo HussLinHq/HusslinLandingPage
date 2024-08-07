@@ -1,7 +1,6 @@
 
  import SeventhSection from "./SeventhSection"
-import SixthSection from "./SixthSection"
-
+ 
 function ContactUS() {
   return (
     <div className=''>
